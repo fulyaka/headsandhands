@@ -1,0 +1,105 @@
+body {
+				font-family: 'Didact Gothic', sans-serif;
+			}
+
+			.display { 
+					display: none;
+			 }
+
+			#forma {
+				text-align: center;
+			}
+			.number {
+				margin-right: 6px;
+				margin-bottom: 10px;
+			}
+
+			input {
+				font-size: 14pt;
+				font-family: 'Didact Gothic', sans-serif;
+			}
+
+			.input {
+				border-radius: 35px;
+				height: 70px;
+				width: 70px;
+				text-align: center;
+				border: 1px solid gray;
+				-webkit-box-shadow: inset 0px 0px 4px 0px rgba(50, 50, 50, 0.37);
+				-moz-box-shadow:    inset 0px 0px 4px 0px rgba(50, 50, 50, 0.37);
+				box-shadow:         inset 0px 0px 4px 0px rgba(50, 50, 50, 0.37);
+				-moz-appearance: textfield;
+			}
+
+			.input::-webkit-inner-spin-button { 
+				display: none;
+			}
+
+			.input:focus {
+				border: 2px solid #F7971E;
+				font-size: 14pt;
+			}
+
+			* {
+				text-align: center;
+			}
+			#arrayButton {
+				background: #F7971E;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to bottom, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to bottom, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+				border-radius: 25px;
+				height: 50px;
+				border: none;
+				font-size: 12pt;
+				font-weight: bold;
+				padding: 0px 30px 0px 30px;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+
+			#new { 
+				background: #F7971E;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to bottom, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to bottom, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+				border-radius: 25px;
+				height: 50px;
+				border: none;
+				font-size: 12pt;
+				font-weight: bold;
+				padding: 0px 30px 0px 30px;
+				margin-left: 10px;
+				margin-right: 10px;
+			 }
+			#countButton {
+				background: #F7971E;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to bottom, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to bottom, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+				border-radius: 25px;
+				height: 50px;
+				width: 50px;
+				border: none;
+				font-size: 12pt;
+				font-weight: bold;
+
+			}
+
+			.attention {
+				color: red;
+				line-height: 2;
+			}
+
+			.success {
+				color: green;
+				line-height: 2;
+			}
+
+			* {
+  				outline: none;
+				}
+			*::-moz-focus-inner {
+  				border: 0;
+				}
+			img { 
+				width: 200px;	
+			 }
